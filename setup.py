@@ -58,4 +58,5 @@ setup(name='django-inlinetrans',
       license='LGPL 3',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
-      install_requires=['polib==1.0.3'])
+      install_requires=['polib>=1.0.3'])
+
